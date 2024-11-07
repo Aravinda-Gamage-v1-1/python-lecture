@@ -58,3 +58,26 @@ my_list3 = ["Grapes", "apple", "orange", "banana"]
 
 my_list3.sort() #this sort function is case sensitive sorting
 print(my_list3) #['Grapes', 'apple', 'banana', 'orange']
+
+my_list3.sort(key = str.lower) #this is not case sensitive sorting
+print(my_list3) #['apple', 'banana', 'Grapes', 'orange']
+
+my_list4 = [5, 3, 10, 25, 8]
+my_list4.sort() #by default sorting in ascending order
+print(my_list4) #[3, 5, 8, 10, 25]
+
+my_list4.sort(reverse=True) #sorting in descending order
+print(my_list4) #[25, 10, 8, 5, 3]
+
+
+
+my_list5 = [12, 10, 13, 4, 1, 5]
+my_list6 = [6, 1, 7, 8, 10]
+
+my_list5.extend(my_list6)
+print(my_list5)
+my_list5.sort()
+print(my_list5)
+print("Medium", my_list5[int((len(my_list5)+1)/2)-1]) #position of medium
+print("Q1", my_list5[int((len(my_list5)+1)/4)-1]) #position of Q1
+print("Q3", my_list5[int((len(my_list5)+1)*3/4)-1]) #position of Q3
