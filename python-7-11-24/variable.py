@@ -8,9 +8,9 @@ a = 2.5e4 #float
 print(a, type(a))
 
 a = 5
-b = float(a) #casting
+b = float(a) #casting int to float
 print(b, type(b))
 
 c = 7.0
-d = int(c)
+d = int(c) #casting float to int
 print(d, type(d))
