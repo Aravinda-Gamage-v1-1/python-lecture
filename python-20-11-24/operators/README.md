@@ -31,3 +31,17 @@ Greater than or equal to >=
 Logical AND and
 Logical OR or
 Logical Not not
+
+### Identity operators
+Is reference to the same object is
+Is not reference to the same object is not
+
+### Membership operators
+Is reference to the same object in
+Is not reference to the same object not in
+
+### Bitwise operators
+Bitwise AND &
+Bitwise OR  |
+Bitwise XOR ^
+BItwise Not ~

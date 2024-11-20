@@ -21,6 +21,27 @@ print(x == y) #False
 print(x != y) #True
 
 #Logical operators
+x = 5
+y = 6
 print(x < 10 and y > 8)
 print(x < 10 or y > 8)
 print(not y > 8)
+
+#Identity operators
+x = 9
+y = 9
+print(x is y)
+print(x is not y)
+
+#Membership operators
+my_list_1 = [8, 10, 12, 13, 15]
+print(10 in my_list_1) #True
+print(11 in my_list_1) #False
+
+#Bitwise operators
+x = 5
+y = 10
+print(x & y) #0
+print(x | y) #15
+print(x ^ y) #15
+print(~x) #-6
