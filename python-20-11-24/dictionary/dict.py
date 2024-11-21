@@ -44,3 +44,8 @@ print(len(my_dict)) #3
 
 my_dict_1 = my_dict.copy()
 print( my_dict_1)
+
+d_1 = {'a':1,'c':3}
+d_2 = {'b':2,'d':4}
+d_3 = d_1 | d_2
+print(d_3)
