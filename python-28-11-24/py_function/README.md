@@ -5,19 +5,6 @@ Mainly there are two types.
 
 Arbitrary positional arguments
 
-def employee_info(name, **kwargs):
-    # Printing the employee name
-    print(f"Employee Name: {name}")
-    
-    # Iterating through the keyword arguments and printing each key-value pair
-    for key, value in kwargs.items():
-        print(f"{key}: {value}")
-    
-    # Returning a dictionary containing all the employee details
-    employee_details = {"name": name}
-    employee_details.update(kwargs)
-    return employee_details
+### Recursive Functions
+The condition under which the function stops calling itself. This prevents infinite recursion.
 
-# Example usage
-details = employee_info("John Doe", age=30, department="IT", position="Developer")
-print(details)
